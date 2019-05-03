@@ -1,0 +1,36 @@
+.calculadora{
+    display:block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(97, 97, 134);
+    width: 370px;
+    height: 500px;
+    border-radius: 25px;
+
+}
+#cero {
+    display: block;
+    width: 147.5px;
+}
+#igual{
+    height: 144px
+}
+.calculadora td button{
+  
+    width:70px;
+    height:70px;
+    font-size: 30px;
+    background-color:rgb(85, 172, 172); 
+}
+#respuesta{
+    display:block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    width: 370px;
+    height: 100px;
+    line-height: 100px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 25px;
+    
+}
