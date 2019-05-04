@@ -11,43 +11,43 @@
 <body onload="init();">
     <table class="calculadora">
         <tr>
-            <td colspan="5"><span id="respuesta"> </span></td>
+            <td colspan="5"><input type="text" id="respuesta" value="0"></td>
         </tr>
         <tr>
-            <td><button id="">←</button></td> 
-            <td><button id="">CE</button></td> 
-            <td><button id="limpiar">C</button></td> 
-            <td><button id="">±</button></td> 
-            <td><button id="raiz">√</button></td> 
+            <td><input type="button" id="" value="←" onclick="dis(value)"></td> 
+            <td><input type="button" id="" value="CE" onclick="clc()"></td> 
+            <td><input type="button" id="" value="C" onclick="clc()"></td> 
+            <td><input type="button" id="" value="±" onclick="neg(true)"></td> 
+            <td><input type="button" id="raiz" value="√" onclick="rai()"></td> 
         </tr>
 
         <tr>
             
-            <td><button id="siete">7</button></td>
-            <td><button id="ocho">8</button></td>
-            <td><button id="nueve">9</button></td>
-            <td><button id="division">/</button></td>
-            <td><button id="">%</button></td>
+            <td><input type="button" id="siete"  value="7" onclick="dis(value)"></td>
+            <td><input type="button" id="ocho" value="8" onclick="dis(value)"></td>
+            <td><input type="button" id="nueve" value="9" onclick="dis(value)"></td>
+            <td><input type="button" id="division" value="/" onclick="dis(value)"></td>
+            <td><input type="button" id="porciento" value="%" onclick="porcent()"></td>
         </tr>
         <tr>
-                <td><button id="cuatro">4</button></td>
-                <td><button id="cinco">5</button></td>
-                <td><button id="seis">6</button></td>
-                <td><button id="multiplicacion">*</button></td>
-                <td><button id="">1/x</button></td>
+                <td><input type="button" id="cuatro" value="4" onclick="dis(value)"></td>
+                <td><input type="button" id="cinco" value="5" onclick="dis(value)"></td>
+                <td><input type="button" id="seis" value="6" onclick="dis(value)"></td>
+                <td><input type="button" id="multiplicacion" value="*" onclick="dis(value)"></td>
+                <td><input type="button" id="" value="1/x" onclick="div()"></td>
         </tr>
          
         <tr>
-                <td><button id="uno">1</button></td>
-                <td><button id="dos">2</button></td>
-                <td><button id="tres">3</button></td>
-                <td><button id="resta">-</button></td>
-                <td rowspan="2"><button id="igual">=</button></td>
+                <td><input type="button" id="uno" value="1" onclick="dis(value)"></td>
+                <td><input type="button" id="dos" value="2" onclick="dis(value)"></td>
+                <td><input type="button" id="tres" value="3" onclick="dis(value)"></td>
+                <td><input type="button" id="resta" value="-" onclick="dis(value)"></td>
+                <td rowspan="2"><input type="button" id="igual" value="=" onclick="calculo()"></td>
         </tr>
         <tr>
-                <td colspan="2"><button id="cero">0</button></td>
-                <td><button id="punto">.</button></td>
-                <td><button id="suma">+</button></td>
+                <td colspan="2"><input type="button" id="cero" value="0" onclick="dis(value)"></button></td>
+                <td><input type="button" id="punto" value="." onclick="dis(value)"></button></td>
+                <td><input type="button" id="suma" value="+" onclick="dis(value)"></button></td>
                 
                 
         </tr>
