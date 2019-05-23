@@ -45,3 +45,9 @@ function dis(valor) {
     document.getElementById("respuesta").value += valor
 
 }
+
+function deleted() {
+    let text = document.getElementById("respuesta").value
+    text = text.substring(0, text.length - 1)
+    document.getElementById("respuesta").value = text
+}
